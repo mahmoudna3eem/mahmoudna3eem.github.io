@@ -1,0 +1,189 @@
+ @font-face{
+     font-family:OpenSans-Regular;
+     src:url('OpenSans-Regular.ttf');
+    }
+
+#bars{
+		float: right;
+		line-height: 50px;
+			cursor: pointer;
+			display: none;
+			margin-right: 15px;
+		}
+
+.nav-bar{
+			background:rgba(0,0,0,0);
+			height: 50px;
+			line-height: 50px;
+            border-bottom:1px solid grey;
+		}
+
+#first-list{
+			list-style: none;
+			padding: 0;
+			margin: 0px 0px 0px 50px;
+			float: left;
+		}
+
+#first-list li{
+			display: inline-block;
+		}
+
+#second-list{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			float: right;
+			display: block;
+		}
+		
+		#second-list li{
+			display: inline-block;
+			cursor: pointer;
+            margin-right:45px;
+		}
+		
+		#second-list li a{
+			text-decoration: none;
+            color:black;
+            font-weight:bold;
+            -webkit-transition:color .75s ease;
+            -moz-transition:color .75s ease;
+            -o-transition:color .75s ease;
+            transition:color .75s ease;
+		}
+    
+    #second-list li a:hover{
+    color:#228B22;
+    }
+
+.parent{
+			border-top: .777px solid gray;
+			background-color: azure;
+			text-align: center;
+			height: 150px;
+			line-height: 50px;
+			display: none;
+			width:100%;
+			box-sizing: border-box;
+		}
+
+.parent{
+    display:none;
+    }
+
+#third-list{
+			list-style: none;
+			float: none;
+			text-align: center;
+	        margin: 0;
+	        padding: 0;
+		}
+		
+		#third-list li{
+			cursor: pointer;
+			text-align: center;
+		}
+		
+		#third-list li a{
+			text-decoration: none;
+            color:black;
+            font-weight:bold;
+		}
+
+#main-header{
+background:url('savorhome.jpg') no-repeat top;
+background-size:cover;
+height:38em;
+}
+
+#frst-row{
+margin:14em 0em 0em 0em;
+text-align:center;
+}
+
+#frst-para co{
+    font-size:3.3em;
+    color:white;
+    letter-spacing:2px;
+    word-spacing: 1px;
+    font-family:OpenSans-Regular;
+}
+
+#frst-para b{
+    font-size:3.3em;
+    color:white;
+    letter-spacing:2px;
+    word-spacing: 1px;
+    font-family:OpenSans-Regular;
+    margin:0em 0em 0em 0.3em;
+}
+
+#sec-row{
+text-align:center;
+}
+
+#third-row{
+text-align:center;
+margin:5em 0em 0em 0em;
+}
+
+#third-row p{
+font-size:25px;
+    font-family:OpenSans-Regular;
+}
+
+#fourth-row{
+margin:1em 0em 0em 0em;
+text-align:center;
+}
+
+#fourth-row p{
+    font-size:25px;
+    font-family:OpenSans-Regular;
+}
+
+#fifth-row p{
+text-align:center;
+margin:2em 0em 0em 0em;
+}
+
+#
+
+#read{
+    width: 150px;
+        height: 50px;
+        background: none;
+        outline: none;
+        border: 1px solid white;
+        color: white;
+        font-weight: 400;
+        font-size: 25px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 6%;
+        line-height:0;
+    -webkit-transition:opacity 0.75s ease-in-out;
+    -o-transition:opacity 0.75s ease-in-out;
+    -moz-transition:opacity 0.75s ease-in-out;
+    transition:opacity 0.75s ease-in-out;
+    }
+    
+    #read:hover{
+    opacity: 0.5;
+            transition: 0.3s ease-in-out;
+            outline: none;
+    }
+/*---------------------------------------- media-screen:640px--------------------------------------------*/
+@media (max-width:640px) {
+
+#second-list{
+				display: none;
+			}
+
+#bars{
+display:block;
+}
+
+}
+
